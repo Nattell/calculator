@@ -11,19 +11,6 @@ segundo_numero = int(segundo_numero)
 
 # 2. Calcular el resultado
 
-match operacion:
-    case "+":
-        print(primer_numero + segundo_numero)
-    case "-":
-        print(primer_numero - segundo_numero)
-    case "*":
-        print(primer_numero * segundo_numero)
-    case "/":
-        print(primer_numero / segundo_numero)
-    case _:
-        print("ninguna operacion es viable")
-        exit()
-
 if operacion == "+":
     print(primer_numero + segundo_numero)
 elif operacion == "-":
